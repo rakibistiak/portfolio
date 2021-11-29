@@ -15,10 +15,9 @@ const Skill = () => {
             {
                 skills.map(skill=>{
                     return(
-                        <div className="pt-3">
+                        <div className="pt-3" key={skill?.id}>
                             <h5>{skill?.title}</h5>
                             <ProgressBar style={{height:'30px'}}
-                            key={skill?.id}
                             now={skill?.now}
                             label={`${skill?.now}%`}
                             variant={skill?.variant}
