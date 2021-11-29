@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "HTML",
+        "now": 95,
+        "variant":"success"
+    },
+    {
+        "id": 2,
+        "title": "CSS",
+        "now": 90,
+        "variant":"info"
+    },
+    {
+        "id": 3,
+        "title": "React Bootstrap",
+        "now": 85,
+        "variant":"warning"
+    },
+    {
+        "id": 4,
+        "title": "Firebase Authentication",
+        "now": 75,
+        "variant":"primary"
+    },
+    {
+        "id": 5,
+        "title": "JavaScript",
+        "now": 80,
+        "variant":"secondary"
+    },
+    {
+        "id": 6,
+        "title": "React JS",
+        "now": 80,
+        "variant":"warning"
+    },
+    {
+        "id": 7,
+        "title": "Express JS",
+        "now": 30,
+        "variant":"success"
+    },
+    {
+        "id": 8,
+        "title": "MongoDB",
+        "now": 40,
+        "variant":"danger"
+    }
+]
