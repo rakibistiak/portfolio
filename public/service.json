@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "title": "Front End Development",
+      "description": "I am expert in Front End Development.I do front end with HTML, CSS, Bootstrap, Vanilla Js, React JS. You can see some of my works below",
+      "img": "https://content.techgig.com/photo/76496481/6-Things-front-end-developers-should-learn-in-2020.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Back End Development",
+      "description": "I am familiar with Backend Development. As I am MERN stack Developer. I do back end development with Node JS, Express Js",
+      "img": "https://jobsinsweden.se/wp-content/uploads/2020/09/backend-development.png"
+    },
+    {
+      "id": 3,
+      "title": "Database Management System",
+      "description": "I am familiar with MongoDB for database. I can insert, update, delete or get data from database. You can see some of my works below",
+      "img": "https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png"
+    }
+  ]
