@@ -1,0 +1,17 @@
+.banner-text span, .name{
+    color: #8443df;
+}
+.regular-btn{
+    background-color: #8443df !important;
+    border-color: #8443df !important;
+    padding: 8px 24px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.banner-container{
+    background-color: #f7f7f7;
+}
+.icon{
+    font-size: 30px;
+    color: #8443df;
+}
