@@ -14,7 +14,7 @@ const Projects = () => {
         navigate(`project/${id}`)
     }
     return (
-        <Container className='my-5 projet-container'>
+        <Container className='my-5 projet-container' id='project'>
             <Row className='g-4 p-4'>
                 <h2 className='text-center py-5'>My Recent Projects</h2>
                 {

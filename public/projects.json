@@ -9,7 +9,8 @@
         "img3": "https://i.ibb.co/JWZ842V/vehica-3.png",
         "clinetCode": "https://github.com/rakibistiak/vehica-car-website-client-side",
         "serverCode": "https://github.com/rakibistiak/vehica-car-website-server-side",
-        "liveLink":"https://vehica-car-website.web.app/"
+        "liveLink":"https://vehica-car-website.web.app/",
+        "tech":"React Js, React Bootstrap, Vanilla CSS, Firebase, Express Js, MongoDB"
     },
     {
         "id": 2,
@@ -21,7 +22,8 @@
         "img3": "https://i.ibb.co/wLtGW12/pacific-2.png",
         "clinetCode": "https://github.com/rakibistiak/pacific-travel-agency-client-side",
         "serverCode": "https://github.com/rakibistiak/pacific-travel-agency-server-side",
-        "liveLink":"https://pacific-travel-agency.web.app/"
+        "liveLink":"https://pacific-travel-agency.web.app/",
+        "tech":"React Js, React Bootstrap, Vanilla CSS, Firebase, Express Js, MongoDB"
     },
     {
         "id": 3,
@@ -32,7 +34,8 @@
         "img2": "https://i.ibb.co/TvPZ4Fh/mediacare-2.png",
         "img3": "https://i.ibb.co/2MvF7bY/medicare-3.png",
         "clinetCode": "https://github.com/rakibistiak/healthcare-related-website-rakibemon",
-        "liveLink":"https://medicare-by-react.web.app/"
+        "liveLink":"https://medicare-by-react.web.app/",
+        "tech":"React Js, React Bootstrap, Vanilla CSS, Firebase Authentication, json data"
 
     },
     {
@@ -44,6 +47,7 @@
         "img2": "https://i.ibb.co/V9nrtVC/edu-2.png",
         "img3": "https://i.ibb.co/V9nrtVC/edu-3.png",
         "clinetCode": "https://github.com/rakibistiak/review-website-rakibemon",
-        "liveLink":"https://educational-website-rakibemon.netlify.app/"
+        "liveLink":"https://educational-website-rakibemon.netlify.app/",
+        "tech":"React Js, Material UI, Vanilla CSS, Firebase Authentication, json data"
     }
 ]

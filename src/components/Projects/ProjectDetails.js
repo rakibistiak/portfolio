@@ -25,20 +25,23 @@ const ProjectDetails = () => {
             <Row className='g-4 d-flex align-items-center p-4'>
                 <Col xs={12} md={6} lg={4}>
                 <figure>
-                    <img className='img-fluid' src={project?.img1} alt="" />
+                    <img className='img-fluid border border-5' src={project?.img1} alt="" />
                 </figure>
                 </Col>
                 <Col xs={12} md={6} lg={4}>
                 <figure>
-                    <img className='img-fluid' src={project?.img2} alt="" />
+                    <img className='img-fluid border border-5' src={project?.img2} alt="" />
                 </figure>
                 </Col>
                 <Col xs={12} md={6} lg={4}>
                 <figure>
-                    <img className='img-fluid' src={project?.img3} alt="" />
+                    <img className='img-fluid border border-5' src={project?.img3} alt="" />
                 </figure>
                 </Col>
             </Row>
+
+            <h6 className='text-center mb-3'>Technology Used : <span style={{fontSize:'15px'}}>{project?.tech}</span></h6>
+
             <div className="d-flex justify-content-center project-link">
                 <a href={project?.clinetCode} target='_blank' rel="noreferrer">
                     <FaCode style={{marginRight:'8px', fontSize:'20px'}}/>Client Code
@@ -50,7 +53,7 @@ const ProjectDetails = () => {
                 }
                 <a href={project?.liveLink} target='_blank' rel="noreferrer">
                     <BsLink45Deg style={{marginRight:'8px', fontSize:'20px'}}/>Link Link
-                    </a>
+                </a>
             </div>
             <Row className='p-4'>
                 <Col sx={12}>

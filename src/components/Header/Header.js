@@ -1,5 +1,6 @@
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
+import { NavLink } from 'react-router-dom';
 import { NavHashLink } from 'react-router-hash-link';
 import './Header.css'
 const Header = () => {
@@ -12,19 +13,24 @@ const Header = () => {
         <div>
             <Navbar collapseOnSelect style={{ backgroundColor: '#E3E3E3' }} expand="lg" fixed='top' >
                 <Container>
-                    <Navbar.Brand> <NavHashLink to="/home#banner" style={{ textDecoration: 'none' }}><h2 className='logo'>Pacific<span>Travel Agency</span></h2></NavHashLink></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
 
 
-                        <Nav className="me-auto d-flex justify-content-start align-items-center">
+                        <Nav className="mx-auto d-flex justify-content-start align-items-center">
                             <NavHashLink className="nav-link" to='/home#banner'> Home</NavHashLink>
 
                             <NavHashLink className="nav-link" to='/home#about'> About</NavHashLink>
 
-                            <NavHashLink className="nav-link" to='/home#about'> About</NavHashLink>
+                            <NavHashLink className="nav-link" to='/home#service'> Service</NavHashLink>
 
-                            <NavHashLink className="nav-link" to='/home#blog'> Blog</NavHashLink>
+                            <NavHashLink className="nav-link" to='/home#skill'> Skill</NavHashLink>
+
+                            <NavHashLink className="nav-link" to='/home#project'> Project</NavHashLink>
+
+                            <NavLink className="nav-link text-dark" to='/blog'>Blog</NavLink>
+
+                            <NavHashLink className="nav-link" to='/home#contact'> Contact</NavHashLink>
                             
                         </Nav>
                     </Navbar.Collapse>

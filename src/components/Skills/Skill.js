@@ -10,7 +10,7 @@ const Skill = () => {
     },[])
     return (
         <div>
-            <Container>
+            <Container id='skill'>
             <h3 className="text-center">My Skills</h3>
             {
                 skills.map(skill=>{

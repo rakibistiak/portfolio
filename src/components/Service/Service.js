@@ -9,7 +9,7 @@ const Service = () => {
             .then(data => setServices(data))
     }, [setServices]);
     return (
-        <Container>
+        <Container id='service'>
                 <h3 className="text-center py-5">My Services</h3>
             <Row xs={1} md={2} lg={3} className="g-4 pb-5">
                 {
