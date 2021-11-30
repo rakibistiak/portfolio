@@ -20,7 +20,7 @@ const Projects = () => {
                 {
                     projects.map(project=>{
                         return(
-                            <Col xs={12}md={6} lg={6} className='single-column'>
+                            <Col key={project?.id} xs={12}md={6} lg={6} className='single-column'>
                                 <div>
                                     <figure>
                                         <img className='project-img p-3' src={project?.img} alt="" />
