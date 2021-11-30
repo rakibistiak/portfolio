@@ -2,52 +2,79 @@
     {
         "id": 1,
         "title": "Vehica Car website",
-        "description":"Country's largest Car's Online Shop. Your local car dealer in the Bangladesh, offering a wide range of brand new cars online, new Ford, Mazda and Nissan, Audi etc. You are welcome at Vehica Enjoy your time with us. Thanks for visiting us. Hope you will get a good service from here that will brigns you up to us again and again",
-        "img" : "https://i.ibb.co/KG8wcDz/screencapture-vehica-car-website-web-app-2021-11-30-01-04-00-1.png",
+        "description": "Country's largest Car's Online Shop. Your local car dealer in the Bangladesh, offering a wide range of brand new cars online, new Ford, Mazda and Nissan, Audi etc. You are welcome at Vehica Enjoy your time with us. Thanks for visiting us. Hope you will get a good service from here that will brigns you up to us again and again",
+        "img": "https://i.ibb.co/KG8wcDz/screencapture-vehica-car-website-web-app-2021-11-30-01-04-00-1.png",
         "img1": "https://i.ibb.co/ws85c3Z/vehica-1.jpg",
         "img2": "https://i.ibb.co/6w32HNB/vehica-2.png",
         "img3": "https://i.ibb.co/JWZ842V/vehica-3.png",
         "clinetCode": "https://github.com/rakibistiak/vehica-car-website-client-side",
         "serverCode": "https://github.com/rakibistiak/vehica-car-website-server-side",
-        "liveLink":"https://vehica-car-website.web.app/",
-        "tech":"React Js, React Bootstrap, Vanilla CSS, Firebase, Express Js, MongoDB"
+        "liveLink": "https://vehica-car-website.web.app/",
+        "tech": "React Js, React Bootstrap, Vanilla CSS, Firebase, Express Js, MongoDB",
+        "point": [
+            "Admin Dashboard available here",
+            "From Admin Dashboard you can see all Order that booked by several users",
+            "You can also delete any order request from Admin Dashboard",
+            "You can add a new Car to the DB",
+            "You can change any Order Status Pending to Shipped or Deliveried and store all info in MongoDB"
+        ]
     },
     {
         "id": 2,
         "title": "Pacific Travel Agency",
-        "description":"World's largest travel platform. browse hundreds of millions of traveler reviews and opinions. compare low prices on hotels, flights, and cruises. book popular tours and attractions as well as reserve tables at great restaurants.find vacation rentals, cabins, beach houses, unique homes and experiences around the world - all made possible by hosts on Pacific Travel agency Enjoy your time with us. Thanks for visiting us. Hope you will get a good service from here that will brigns you up to us again and again",
-        "img" : "https://i.ibb.co/7Kwdvbr/screencapture-pacific-travel-agency-web-app-home-2021-11-30-12-53-19-1.png",
+        "description": "World's largest travel platform. browse hundreds of millions of traveler reviews and opinions. compare low prices on hotels, flights, and cruises. book popular tours and attractions as well as reserve tables at great restaurants.find vacation rentals, cabins, beach houses, unique homes and experiences around the world - all made possible by hosts on Pacific Travel agency Enjoy your time with us. Thanks for visiting us. Hope you will get a good service from here that will brigns you up to us again and again",
+        "img": "https://i.ibb.co/7Kwdvbr/screencapture-pacific-travel-agency-web-app-home-2021-11-30-12-53-19-1.png",
         "img1": "https://i.ibb.co/2MbPJB6/pacific-1.png",
         "img2": "https://i.ibb.co/CJJrGXW/pacific-3.png",
         "img3": "https://i.ibb.co/wLtGW12/pacific-2.png",
         "clinetCode": "https://github.com/rakibistiak/pacific-travel-agency-client-side",
         "serverCode": "https://github.com/rakibistiak/pacific-travel-agency-server-side",
-        "liveLink":"https://pacific-travel-agency.web.app/",
-        "tech":"React Js, React Bootstrap, Vanilla CSS, Firebase, Express Js, MongoDB"
+        "liveLink": "https://pacific-travel-agency.web.app/",
+        "tech": "React Js, React Bootstrap, Vanilla CSS, Firebase, Express Js, MongoDB",
+        "point": [
+            "You can find your dream location and can book hotel from here",
+            "You can see your booking details and also cancellation policies here 48 hours before the journey begains",
+            "Our services now cover 20+ countries over the world",
+            "You can also find some blogs here about cheapest place or which place is now best for you now etc...",
+            "We also provide recreational and outdoor activities"
+        ]
     },
     {
         "id": 3,
         "title": "Medicare",
-        "description":"World's Best Doctors are here. Make an appoinment and checked up24/7 hours Services with Emergency. You can Buy health card with some different package and feature to reduce cost You can make Appoinment Online, It will save your time Counseling, Blood Bank, Some Free Medicine also availavle here",
+        "description": "World's Best Doctors are here. Make an appoinment and checked up24/7 hours Services with Emergency. You can Buy health card with some different package and feature to reduce cost You can make Appoinment Online, It will save your time Counseling, Blood Bank, Some Free Medicine also availavle here",
         "img": "https://i.ibb.co/9NscWY9/screencapture-medicare-by-react-web-app-home-2021-11-30-01-02-09-1.png",
         "img1": "https://i.ibb.co/L1FRxD3/medicare-1.png",
         "img2": "https://i.ibb.co/TvPZ4Fh/mediacare-2.png",
         "img3": "https://i.ibb.co/2MvF7bY/medicare-3.png",
         "clinetCode": "https://github.com/rakibistiak/healthcare-related-website-rakibemon",
-        "liveLink":"https://medicare-by-react.web.app/",
-        "tech":"React Js, React Bootstrap, Vanilla CSS, Firebase Authentication, json data"
-
+        "liveLink": "https://medicare-by-react.web.app/",
+        "tech": "React Js, React Bootstrap, Vanilla CSS, Firebase Authentication, json data",
+        "point": [
+            "World's Best Doctors are here. Make an appoinment and checked up",
+            "24/7 hours Services with Emergency.",
+            "You can Buy health card with some different package and feature to reduce cost",
+            "You can make Appoinment Online, It will save your time",
+            "Counseling, Blood Bank, Some Free Medicine also availavle here"
+        ]
     },
     {
         "id": 4,
         "title": "Educational Website",
-        "description":"You can find many courses related to Computer Science. Learn New Courses. It also helpful for your university courses Enhance skills with top Instractors. Alwasys Updated courses and lifetime access for courses",
+        "description": "You can find many courses related to Computer Science. Learn New Courses. It also helpful for your university courses Enhance skills with top Instractors. Alwasys Updated courses and lifetime access for courses",
         "img": "https://i.ibb.co/PxhZFTS/screencapture-educational-website-rakibemon-netlify-app-home-2021-11-30-01-06-39-1.png",
         "img1": "https://i.ibb.co/BzzHDzK/edu-1.png",
         "img2": "https://i.ibb.co/V9nrtVC/edu-2.png",
         "img3": "https://i.ibb.co/V9nrtVC/edu-3.png",
         "clinetCode": "https://github.com/rakibistiak/review-website-rakibemon",
-        "liveLink":"https://educational-website-rakibemon.netlify.app/",
-        "tech":"React Js, Material UI, Vanilla CSS, Firebase Authentication, json data"
+        "liveLink": "https://educational-website-rakibemon.netlify.app/",
+        "tech": "React Js, Material UI, Vanilla CSS, Firebase Authentication, json data",
+        "point": [
+            "You can find many courses related to Computer Science. Learn New Courses",
+            "It also helpful for your university courses",
+            "Enhance skills with top Instractors.",
+            "React Router Hook used here",
+            "Alwasys Updated courses and lifetime access for courses"
+        ]
     }
 ]

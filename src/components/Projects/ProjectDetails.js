@@ -60,6 +60,11 @@ const ProjectDetails = () => {
                     <p className='section-desc'>{project?.description}</p>
                 </Col>
             </Row>
+            <ul>
+            {
+                project?.point.map((point, index)=> <li key={index}>{point}</li>)
+            }
+            </ul>
             <div className="text-center">
             <button className="regular-btn mb-4" onClick={goBack}>Go Back</button>
             </div>
