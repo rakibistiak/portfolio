@@ -1,5 +1,8 @@
+.banner-text{
+    color: #fff;
+}
 .banner-text span, .name{
-    color: #8443df;
+    color: #FF8C17;
 }
 .regular-btn{
     background-color: #8443df;
@@ -9,8 +12,14 @@
     margin-right: 10px;
     color: #fff;
 }
+.regular-btn:hover{
+    background-color:#7621ee;
+}
 .banner-container{
-    background-color: #f7f7f7;
+    background:url('https://i.ibb.co/VTtSGD2/download.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .icon{
     font-size: 30px;

@@ -1,6 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@300;400;500&display=swap');
 #about{
-    background-color: rgb(29, 196, 238);
+    background-color: #E5D2B4;
 }
 .about-container{
     padding: 30px 0px 120px 0px;
+}
+.section-title{
+    font-style: italic;
+    font-family: 'Dancing Script', cursive;
+    font-size: 60px;
+    font-weight: 700;
+    color: #3B1A00;
+}
+.section-subtitle{
+    font-size: 26px;
+}
+.section-desc{
+    font-weight: 500;
+    color: #7C7D7E;
 }

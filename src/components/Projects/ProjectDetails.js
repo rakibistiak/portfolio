@@ -57,7 +57,7 @@ const ProjectDetails = () => {
             </div>
             <Row className='p-4'>
                 <Col sx={12}>
-                    <p>{project?.description}</p>
+                    <p className='section-desc'>{project?.description}</p>
                 </Col>
             </Row>
             <div className="text-center">

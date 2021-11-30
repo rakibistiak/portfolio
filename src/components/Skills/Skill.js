@@ -11,7 +11,7 @@ const Skill = () => {
     return (
         <div>
             <Container id='skill'>
-            <h3 className="text-center">My Skills</h3>
+            <h3 className="text-center section-title" data-aos='fade-left' data-aos-duration='800'>My Skills</h3>
             {
                 skills.map(skill=>{
                     return(

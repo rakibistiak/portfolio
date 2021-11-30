@@ -22,15 +22,15 @@ const Contact = () => {
   return (
     <Container className=' mb-5' id='contact'>
       <Row>
-        <h2 className="text-center py-4">Contact me </h2>
-        <Col xs={12} md={6} className='d-flex flex-column align-items-center'>
+        <h2 className="text-center py-4 section-title" data-aos='fade-left' data-aos-duration='800'>Contact me </h2>
+        <Col xs={12} md={6} className='d-flex flex-column align-items-center' data-aos="fade-right" data-aos-duration='800'>
           <div>
             <h6><AiOutlineMail style={{marginRight:'8px', fontSize:'20px'}}/> rakibemon03@gmail.com</h6>
             <h6><AiFillPhone style={{marginRight:'8px', fontSize:'20px'}}/> 01787134844</h6>
             <h6><AiFillFacebook style={{marginRight:'8px', fontSize:'20px'}}/> Md Rakib Istiak</h6>
           </div>
         </Col>
-        <Col xs={12} md={6}>
+        <Col xs={12} md={6} data-aos="fade-left" data-aos-duration='800'>
           <form ref={form} onSubmit={sendEmail}>
 
             <Form.Group className="mb-3" controlId="formBasicName">
